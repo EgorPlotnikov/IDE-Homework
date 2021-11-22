@@ -18,3 +18,6 @@
 
 ![img](https://user-images.githubusercontent.com/94371922/142842166-bedb1e5e-666e-439a-ab1b-979f7049a976.jpg)
 
+4) Добавил изображение в репозиторий 
+
+![image](https://user-images.githubusercontent.com/94371922/142851983-16c0b483-e5e5-4ce6-a1b3-f531839429d0.png)
