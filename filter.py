@@ -27,6 +27,3 @@ grey_size = 255 // grey
 
 res = Image.fromarray(do_mosaic(img_code, mosaic_size, grey_size))
 res.save(input("Введите имя файла, в которой хотите сохранить результат: "))
-
-
-
