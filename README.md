@@ -55,7 +55,7 @@
 
 ![res](https://user-images.githubusercontent.com/94371922/142864523-8aebbb49-9783-4a46-87aa-7b440b02c414.jpg)
 
-<<Картинка, полученная работой прального фильтра filter.py>>
+<<Картинка, полученная работой правильного фильтра filter.py>>
 
 ![img_new](https://user-images.githubusercontent.com/94371922/142864606-64dc3bee-74c1-431c-9747-8f5faf814132.jpg)
 
