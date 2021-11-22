@@ -59,6 +59,8 @@
 
 ![img_new](https://user-images.githubusercontent.com/94371922/142864606-64dc3bee-74c1-431c-9747-8f5faf814132.jpg)
 
+9) К выделенным функциям напишем документацию и док-тесты.
+
 
 
 
