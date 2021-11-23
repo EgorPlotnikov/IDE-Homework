@@ -3,6 +3,13 @@ import numpy as np
 
 
 def do_mosaic(img, size, grey_size):
+    """
+    Самый главный метод. Принимает старую картинку и возвращает новую.
+
+    :param img
+    :param size: int
+    :param grey_size: int
+    """
     for x in range(0, len(img), size):
         for y in range(0, len(img[0]), size):
             img[x:x + size, y:y + size] = find_average(
@@ -11,6 +18,25 @@ def do_mosaic(img, size, grey_size):
 
 
 def find_average(img_part, size, grey_size):
+    """
+    Метод вызывается для нахождения среднего цвета, которым в дальнейшем будет заполнена новая ячейка мозаики
+
+    :param img_part
+    :param size: int
+    :param grey_size: int
+
+    >>> find_average([[238, 222, 199], [238, 222, 199], [238, 222, 199],  [238, 222, 199], [238, 222, 199],
+    [238, 222, 199], [238, 222, 199], [238, 222, 199], [238, 222, 199]], 10, 5)
+    215
+
+    >>> find_average([[215, 208, 200], [215, 208, 200], [216, 209, 203], [216, 209, 203], [216, 209, 203],
+    [216, 209, 203], [216, 209, 203], [216, 209, 203], [216, 209, 203]], 10, 5)
+    205
+
+    >>> find_average([[173, 172, 186], [173, 172, 186], [173, 172, 186], [173, 172, 186], [172, 171, 185],
+    [172, 171, 185], [172, 171, 185], [172, 171, 185], [171, 170, 184]], 10, 5)
+    175
+    """
     average_color = (img_part[:size, :size].sum() / 3) // size ** 2
     return int(average_color // grey_size) * grey_size
 
